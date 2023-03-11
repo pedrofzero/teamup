@@ -5,7 +5,7 @@ const Router = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
       <>
-        <Route path='/' element={<>Home Page</>} />
+        <Route path='/' element={<div className="text-3xl font-bold underline">Home Page</div>} />
         <Route path='/test' element={<>Test Page</>} />
         </>
     )
