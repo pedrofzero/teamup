@@ -4,10 +4,11 @@ import './App.css'
 import Router from './router'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <Router /> 
+    <div className='w-full h-full'>
+      <Router />
+    </div>
   )
 }
 
