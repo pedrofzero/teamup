@@ -1,5 +1,6 @@
 import React, { Suspense } from 'react'
 import { Route, createBrowserRouter, RouterProvider, createRoutesFromElements } from 'react-router-dom'
+import Dashboard from '../pages/Dashboard'
 import Home from '../pages/Home'
 
 const Router = () => {
@@ -7,7 +8,7 @@ const Router = () => {
     createRoutesFromElements(
       <>
         <Route path='/' element={<Home />} />
-        <Route path='/test' element={<>Test Page</>} />
+        <Route path='/dashboard' element={<Dashboard />} />
         </>
     )
   )
