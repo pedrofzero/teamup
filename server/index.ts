@@ -9,7 +9,7 @@ const authenticate = require('./middleware/authenticate')
 const authRoutes = require('./routes/auth')
 
 
-const app = express()
+const app = express();
 
 app.get('/users', async (req: Request, res: Response) => {
     res.send('hi')
